@@ -1,7 +1,7 @@
 # Pathfinder-Stat-Roller
 Stat roller for pathfinder
 
-This is a simple stat roller for a party for Pathfinder.  Input (parameters) is added to line 186 of roller.py.  Comments above that line explain the input.  Basically, you can choose your class and then use this to roll random stats for your character with certain assurances.  
+This is a simple stat roller for a party for Pathfinder.  Input (parameters) is added to line 188 of roller.py.  Comments above that line explain the input.  Basically, you can choose your class and then use this to roll random stats for your character with certain assurances.  
 
 Character Parameters:
 
