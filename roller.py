@@ -99,8 +99,10 @@ def party_roller(separation, sum_min, sum_max, stat_priority, a, b, c, d, e, f, 
 			stat_group = []
 			i = 0
 			counter[2] += 1
-			if counter[2] % 10000 == 0:
+			if counter[2] % 10000 == 0 and not counter[2] % 100000 == 0:
 				print("Still working.")
+			elif counter[2] % 100000 == 0:
+				print("Working harder, working stronger...")
 	return stat_group
 
 
@@ -183,7 +185,7 @@ stat_time = time.time()
 # 10) Upper bound for each player stat sum (inclusive bound) - standard fantasy is 15 point buy on top of 10's, so 75
 # 11) Lower bound for each player stat sum (inclusive bound)
 # See key above      9  10  11 	   1	  2	   1	  2	   1 	  2	   1  	  2  	   3  4   5  6  7  8
-stats = party_roller(0, 74, 76, [["Wis", "Str"], ["Cha", "Wis"], ["Int", "Cha"], ["Cha", "Dex"]], 14, 7, 16, 2, 1, 3, c)
+stats = party_roller(0, 75, 75, [["Wis", "Str"], ["Cha", "Int"], ["Int", "Wis"], ["Cha", "Dex"]], 14, 7, 16, 2, 1, 3, c)
 print("Inquisitor roll is\t" + str(stats[0]) + taber(stats, 0) + "sum:  " + str(sum(s for s in stats[0])))
 print("Sorcerer roll is\t" + str(stats[1]) + taber(stats, 1) + "sum:  " + str(sum(s for s in stats[1])))
 print("Psychic roll is\t\t" + str(stats[2]) + taber(stats, 2) + "sum:  " + str(sum(s for s in stats[2])))
