@@ -4,12 +4,15 @@ Stat roller for pathfinder
 This is a simple stat roller for a party for Pathfinder.  Input (parameters) is added to line 186 of roller.py.  Comments above that line explain the input.  Basically, you can choose your class and then use this to roll random stats for your character with certain assurances.  
 
 Character Parameters:
+
 You can specify a primary and secondary stat for multiple characters and a minimum value for primary stats and secondary stats will have a value of at least primary stat minimum - 2.  You can also set a global minimum value so you can be sure no single stat will be below that value.  You can set a global high value and a maximum and minimum frequency of a value per character.  You can also set a maximum value for the number of odd valued rolls per character.  These assurances allow characters to have both a functional class preselected and unique rolls to promote organic character growth.  Characters are interpreted as pairs of primary and secondary stat prefrences.
 
 Group Parameters:
+
 You can specify how distant the sum of any player's stats would be to any other player.  This allows for there to be a band placed around balance in base stats.  You can also specify the range of where the sum of the stats should fall.  According to the pathfinder rule book this allows you to control the campaign type (Low, Standard, High, or Epic Fantasy).  Using the point buy system to compare to, base stats start at 10 for a total of 60 + 10, 15, 20, or 25 extra points depending on the campaign type.  For example if a Standard Campaign type is desired, setting the range could be from 74 to 76.
 
 Example Output:
+
 Inquisitor roll is	[15, 16, 10, 7, 16, 12]	  sum:  76
 Sorcerer roll is	  [17, 8, 13, 10, 14, 14]	  sum:  76
 Psychic roll is		  [12, 12, 15, 16, 8, 13]	  sum:  76
