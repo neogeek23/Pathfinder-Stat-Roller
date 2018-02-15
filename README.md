@@ -1,2 +1,4 @@
 # Pathfinder-Stat-Roller
 Stat roller for pathfinder
+
+This is a simple stat roller for a party for Pathfinder.  Input is added to line 186 of roller.py.  Comments above that line explain the input.  Basically, you can choose your class and then use this to roll random stats for your character with certain assurances.  You can specify a primary and secondary and minimum value for your primary stat and your secondary stat will have a value of at least primary stat minimum - 2.  You can also set a global minimum value so you can be sure no single stat will be below that value.  You can set a global high value and a maximum and minimum frequency for that roll of a value.  You can also set a maximum value for the number of odd valued rolls you character has.  These assurances allow you to have both a functional class of your choosing and unique rolls to promote organic character growth.
