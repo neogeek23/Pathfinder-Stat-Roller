@@ -14,22 +14,36 @@ You can specify how distant the sum of any player's stats would be to any other 
 Example Output:
 
 Inquisitor roll is	[15, 16, 10, 7, 16, 12]	  sum:  76
+
 Sorcerer roll is	  [17, 8, 13, 10, 14, 14]	  sum:  76
+
 Psychic roll is		  [12, 12, 15, 16, 8, 13]	  sum:  76
+
 Rouge roll is		    [9, 13, 14, 10, 14, 16]	  sum:  76
+
 Finding the Magic Rolls took 0.947 minutes.
 20821392 rolls were made for 867558 characters in 16809 parties.
 
+
 Inquisitor roll is	[15, 13, 10, 12, 16, 8]	  sum:  74
+
 Sorcerer roll is	  [12, 8, 11, 12, 15, 16] 	sum:  74
+
 Psychic roll is		  [11, 10, 10, 16, 14, 13]  sum:  74
+
 Rouge roll is		    [12, 12, 17, 9, 10, 14]	  sum:  74
+
 Finding the Magic Rolls took 8.008 minutes.
 180359088 rolls were made for 7514962 characters in 145234 parties.
 
+
 Inquisitor roll is	[13, 12, 16, 9, 15, 10] 	sum:  75
+
 Sorcerer roll is	  [16, 8, 16, 8, 12, 15]	  sum:  75
+
 Psychic roll is		  [9, 14, 10, 17, 12, 13] 	sum:  75
+
 Rouge roll is		    [9, 13, 12, 13, 10, 18]	  sum:  75
+
 Finding the Magic Rolls took 23.199 minutes.
 517797864 rolls were made for 21574911 characters in 416266 parties.
